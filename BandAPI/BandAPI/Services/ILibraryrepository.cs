@@ -22,7 +22,7 @@ namespace BandAPI.Services
         void DeleteBand(Band band);
 
         bool BandExists(Guid bandId);
-        bool AlbumExists(Album albumId);
+        bool AlbumExists(Guid albumId);
         bool Save();
     }
 }
