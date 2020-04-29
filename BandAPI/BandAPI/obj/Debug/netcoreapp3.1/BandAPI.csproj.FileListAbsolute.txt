@@ -39,3 +39,14 @@ C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreap
 C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\BandAPI.deps.json
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\BandAPI.runtimeconfig.json
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\BandAPI.runtimeconfig.dev.json
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\BandAPI.dll
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\BandAPI.pdb
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\obj\Debug\netcoreapp3.1\BandAPI.csproj.CoreCompileInputs.cache
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\obj\Debug\netcoreapp3.1\BandAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\obj\Debug\netcoreapp3.1\BandAPI.dll
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\obj\Debug\netcoreapp3.1\BandAPI.pdb
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\obj\Debug\netcoreapp3.1\BandAPI.genruntimeconfig.cache
