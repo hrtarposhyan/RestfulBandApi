@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HUpGQ+Nx4RofWFPZv/omFrcz2q9QMnIRIyEIbC9Qa9G5yN0vokWY/gTV1mCjZuxobjr2+tjvgPAgWMsaUr6V5Q==",
+  "dgSpecHash": "t5Xb8dtqq+qTCl4GMJzJezZ6mdZWfyl71zUVmycK1SKd0/lKtUmMXzi0BpJ/2EjjzIPdMcj/cpxaX8whD1PBtA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hrachya\\source\\repos\\RestfulBandApi\\BandAPI\\BandAPI\\BandAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Hrachya\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\Hrachya\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Hrachya\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Hrachya\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Hrachya\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

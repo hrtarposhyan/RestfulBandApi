@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using BandAPI.DBContext;
 using BandAPI.Services;
 using Microsoft.AspNetCore.Builder;
@@ -32,10 +33,13 @@ namespace BandAPI
             {
                 setupAction.ReturnHttpNotAcceptable = true;
             }).AddXmlDataContractSerializerFormatters();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<ILibraryrepository, LibraryRepository>();
             services.AddDbContext<LibraryContext>(options =>
             {
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+                options.UseSqlServer(Configuration.GetConnectionString
+                    ("DefaultConnection"));
             });
         }
 

@@ -1,4 +1,7 @@
-﻿using BandAPI.Services;
+﻿using AutoMapper;
+using BandAPI.Helpers;
+using BandAPI.Models;
+using BandAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -13,17 +16,34 @@ namespace BandAPI.Controllers
     public class BandsController : ControllerBase
     {
         private readonly ILibraryrepository _libraryrepository;
-        public BandsController(ILibraryrepository libraryrepository)
+        private readonly IMapper _mapper;
+        public BandsController(ILibraryrepository libraryrepository, IMapper mapper)
         {
             _libraryrepository = libraryrepository ??
                 throw new ArgumentNullException(nameof(libraryrepository));
+            _mapper=mapper??
+                throw new ArgumentNullException(nameof(mapper));
         }
 
         [HttpGet]
         public IActionResult GetBands()
         {
             var bandsFromRepo = _libraryrepository.GetBands();
-            return Ok(bandsFromRepo);
+            //var bandsDto = new List<BandDto>();
+
+            //foreach (var band in bandsFromRepo)
+            //{
+            //    bandsDto.Add(new BandDto()
+            //    {
+            //        Id = band.Id,
+            //        Name = band.Name,
+            //        MainGenre = band.MainGenre,
+            //       // FoundedYearsAgo =$"{band.Founded.ToString("yyyy")} ({band.Founded.GetYearsAgo()} years ago)"
+            //    });
+            //}
+
+            // return Ok(bandsFromRepo);
+            return Ok(_mapper.Map<IEnumerable<BandDto>>(bandsFromRepo));
         }
 
         [HttpGet("{bandId}")]

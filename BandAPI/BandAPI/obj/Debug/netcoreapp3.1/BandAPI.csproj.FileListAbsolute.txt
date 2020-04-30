@@ -45,8 +45,10 @@ C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreap
 C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\BandAPI.dll
 C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\BandAPI.pdb
 C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\obj\Debug\netcoreapp3.1\BandAPI.csproj.CoreCompileInputs.cache
-C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\obj\Debug\netcoreapp3.1\BandAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\obj\Debug\netcoreapp3.1\BandAPI.dll
 C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\obj\Debug\netcoreapp3.1\BandAPI.pdb
 C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\obj\Debug\netcoreapp3.1\BandAPI.genruntimeconfig.cache
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\obj\Debug\netcoreapp3.1\BandAPI.csproj.CoreCompileInputs.cache
+C:\Users\Hrachya\source\repos\RestfulBandApi\BandAPI\BandAPI\obj\Debug\netcoreapp3.1\BandAPI.MvcApplicationPartsAssemblyInfo.cache
