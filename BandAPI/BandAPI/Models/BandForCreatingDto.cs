@@ -10,5 +10,7 @@ namespace BandAPI.Models
         public string Name { get; set; }
         public DateTime Founded { get; set; }
         public string MainGenre { get; set; }
+        public ICollection<AlbumForCreatingDto> Albums { get; set; }
+            = new List<AlbumForCreatingDto>();
     }
 }
