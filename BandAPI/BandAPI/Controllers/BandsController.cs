@@ -48,7 +48,7 @@ namespace BandAPI.Controllers
             return Ok(_mapper.Map<IEnumerable<BandDto>>(bandsFromRepo));
         }
 
-        [HttpGet("{bandId}")]
+        [HttpGet("{bandId}",Name ="GetBand")]
         public IActionResult GetBand(Guid bandId)
         {
             //if (!_libraryrepository.BandExists(bandId))
@@ -61,6 +61,19 @@ namespace BandAPI.Controllers
 
             //return new JsonResult(bandFromRepo);
             return Ok(bandFromRepo);
+        }
+
+        [HttpPost]
+        public ActionResult<BandDto> CreateBand([FromBody] BandForCreatingDto band)
+        {
+            var bandEntity = _mapper.Map<Entities.Band>(band);
+            _libraryrepository.AddBand(bandEntity);
+            _libraryrepository.Save();
+
+            var bandToReturn = _mapper.Map<BandDto>(bandEntity);
+
+            return CreatedAtRoute("GetBand", new { bandId = bandToReturn.Id }, 
+                bandToReturn);
         }
     }
 }
