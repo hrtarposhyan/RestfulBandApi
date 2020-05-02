@@ -141,7 +141,7 @@ namespace BandAPI.Services
         }
         public bool Save()
         {
-            return (_libraryContext.SaveChanges() > 0);
+            return (_libraryContext.SaveChanges() >0);
         }
 
         public void UpdateAlbum(Album album)
