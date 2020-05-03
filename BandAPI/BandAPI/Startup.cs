@@ -33,7 +33,8 @@ namespace BandAPI
             services.AddControllers(setupAction=>
             {
                 setupAction.ReturnHttpNotAcceptable = true;
-            }).AddXmlDataContractSerializerFormatters();
+            }).AddXmlDataContractSerializerFormatters()
+            .AddNewtonsoftJson();
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<ILibraryrepository, LibraryRepository>();
